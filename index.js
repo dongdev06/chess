@@ -15,7 +15,7 @@ app.use(express.static(__dirname + "/chess"));
 const path = __dirname + "/game_state.json";
 const pathKey = __dirname + "/data_key.json"
 
-const domain = 'https://chess.quocvong4.repl.co'
+const domain = 'https://chess.dongdev.site'
 
 const chess = new Chess();
 const canvasWidth = 700;
